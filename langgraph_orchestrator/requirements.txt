@@ -1,0 +1,6 @@
+langchain
+langgraph
+langchain-aws  # For Bedrock integration specifically
+boto3
+# requests # You'll need this if you make direct API calls, e.g., to your scraper lambda later
+# pydantic # langgraph usually brings this in, but good to be explicit if you use it heavily
